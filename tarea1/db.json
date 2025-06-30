@@ -1,0 +1,139 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Laptop Lenovo",
+      "precio": 2500,
+      "categoria": "Tecnología",
+      "clienteId": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Smartphone Samsung",
+      "precio": 1200.5,
+      "categoria": "Tecnología",
+      "clienteId": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Silla ergonómica",
+      "precio": 600.99,
+      "categoria": "Muebles",
+      "clienteId": 4
+    },
+    {
+      "id": 4,
+      "nombre": "Colchon Paraiso",
+      "precio": 1200,
+      "categoria": "Muebles",
+      "clienteId": 3
+    },
+    {
+      "id": 5,
+      "nombre": "Refrigerado",
+      "precio": 1500.5,
+      "categoria": "Electrodomestico",
+      "clienteId": 2
+    },
+    {
+      "id": 6,
+      "nombre": "Cocina Electrica",
+      "precio": 2850.99,
+      "categoria": "Electrodomestico",
+      "clienteId": 1
+    },
+    {
+      "id": 7,
+      "nombre": "Drone Profesional",
+      "precio": 6700.89,
+      "categoria": "Tecnología",
+      "clienteId": 5
+    },
+    {
+      "id": 8,
+      "nombre": "Sofa Cama",
+      "precio": 980.77,
+      "categoria": "Muebles",
+      "clienteId": 2
+    },
+    {
+      "id": 9,
+      "nombre": "Aire Acondicionado",
+      "precio": 2500.99,
+      "categoria": "Electrodomestico",
+      "clienteId": 1
+    },
+    {
+      "id": 10,
+      "nombre": "TV 75 pulgadas Sony",
+      "precio": 4200.9,
+      "categoria": "Tecnología",
+      "clienteId": 3
+    },
+    {
+      "id": 11,
+      "nombre": "Caja China",
+      "precio": 1450.57,
+      "categoria": "Parrillas",
+      "clienteId": 4
+    },
+    {
+      "id": 12,
+      "nombre": "Moto Electrica",
+      "precio": 6800.99,
+      "categoria": "Automotriz",
+      "clienteId": 1
+    },
+    {
+      "nombre": "Cilindro Asador",
+      "precio": 4500.58,
+      "categoria": "Parrillas",
+      "clienteId": 4,
+      "id": 13
+    }
+  ],
+  "clientes": [
+    {
+      "nombre": "Oliver Sonne",
+      "email": "oliver@example.com",
+      "telefono": "995290368",
+      "puntajeCliente": 92,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "nombre": "María López",
+      "email": "maria@example.com",
+      "telefono": "912345678",
+      "puntajeCliente": 45
+    },
+    {
+      "id": 3,
+      "nombre": "Javier Navarro",
+      "email": "javier@example.com",
+      "telefono": "995229156",
+      "puntajeCliente": 88
+    },
+    {
+      "id": 4,
+      "nombre": "Catherine Rojas",
+      "email": "cathy@example.com",
+      "telefono": "9976099903",
+      "puntajeCliente": 35
+    },
+    {
+      "id": 5,
+      "nombre": "Manuel Trigueros",
+      "email": "manuel@example.com",
+      "telefono": "958213458",
+      "puntajeCliente": 95
+    },
+    {
+      "nombre": "Peter Segura",
+      "email": "peter@example.com",
+      "telefono": "956254589",
+      "puntajeCliente": 65,
+      "id": 6
+    }
+  ]
+}
