@@ -1,0 +1,53 @@
+{
+  "alumnos": [
+    {
+      "id": 1,
+      "nombres": "Juan Perez",
+      "dni": "12345678",
+      "celular": "987654321",
+      "estado": "Aprobado"
+    },
+    {
+      "id": 2,
+      "nombres": "Maria Lopez",
+      "dni": "87654321",
+      "celular": "912345678",
+      "estado": "Desaprobado"
+    },
+    {
+      "id": 3,
+      "nombres": "Luis Torres",
+      "dni": "34567890",
+      "celular": "987321654",
+      "estado": "Retirado"
+    },
+    {
+      "id": 4,
+      "nombres": "Ana Fernandez",
+      "dni": "56789012",
+      "celular": "912312312",
+      "estado": "Sancionado"
+    },
+    {
+      "id": 5,
+      "nombres": "Carlos Mendoza",
+      "dni": "78901234",
+      "celular": "923456789",
+      "estado": "En Proceso"
+    },
+    {
+      "nombres": "Madison Navarro",
+      "dni": "95875622",
+      "celular": "995229156",
+      "estado": "Aprobado",
+      "id": 6
+    },
+    {
+      "nombres": "Pepito Perez",
+      "dni": "07985265",
+      "celular": "986521356",
+      "estado": "En Proceso",
+      "id": 7
+    }
+  ]
+}
