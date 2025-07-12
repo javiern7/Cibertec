@@ -1,0 +1,95 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "fruta": "Manzana",
+      "precio": 4.59,
+      "imagen": "https://media.falabella.com/tottusPE/10161810_1/w=1500,h=1500,fit=pad"
+    },
+    {
+      "id": 2,
+      "fruta": "Plátano",
+      "precio": 6.99,
+      "imagen": "https://media.tottus.com.pe/tottusPE/10162544_1/width=240,height=240,quality=70,format=webp,fit=pad"
+    },
+    {
+      "id": 3,
+      "fruta": "Naranja",
+      "precio": 3.99,
+      "imagen": "https://media.falabella.com/tottusPE/43330254_1/w=1500,h=1500,fit=pad"
+    },
+    {
+      "id": 4,
+      "fruta": "Fresa",
+      "precio": 15.5,
+      "imagen": "https://media.falabella.com/tottusPE/42859544_1/w=1500,h=1500,fit=pad"
+    },
+    {
+      "id": 5,
+      "fruta": "Piña",
+      "precio": 3.19,
+      "imagen": "https://media.tottus.com.pe/tottusPE/42519001_1/width=240,height=240,quality=70,format=webp,fit=pad"
+    },
+    {
+      "id": 6,
+      "fruta": "kiwi",
+      "precio": 18.9,
+      "imagen": "https://media.tottus.com.pe/tottusPE/10162794_1/width=240,height=240,quality=70,format=webp,fit=pad"
+    },
+    {
+      "id": 7,
+      "fruta": "Sandía",
+      "precio": 4.49,
+      "imagen": "https://media.tottus.com.pe/tottusPE/10162762_1/width=240,height=240,quality=70,format=webp,fit=pad"
+    },
+    {
+      "id": 8,
+      "fruta": "Melón",
+      "precio": 4.59,
+      "imagen": "https://media.tottus.com.pe/tottusPE/10162738_1/width=240,height=240,quality=70,format=webp,fit=pad"
+    },
+    {
+      "id": 9,
+      "fruta": "Pera",
+      "precio": 7.89,
+      "imagen": "https://media.tottus.com.pe/tottusPE/10161865_1/width=240,height=240,quality=70,format=webp,fit=pad"
+    },
+    {
+      "id": 10,
+      "fruta": "Uva",
+      "precio": 18.9,
+      "imagen": "https://media.tottus.com.pe/tottusPE/41035129_1/width=240,height=240,quality=70,format=webp,fit=pad"
+    },
+    {
+      "id": 11,
+      "fruta": "Maracuya",
+      "precio": 5.49,
+      "imagen": "https://media.tottus.com.pe/tottusPE/10162612_1/width=240,height=240,quality=70,format=webp,fit=pad"
+    },
+    {
+      "id": 12,
+      "fruta": "Lucuma",
+      "precio": 14.6,
+      "imagen": "https://media.tottus.com.pe/tottusPE/10162601_1/width=240,height=240,quality=70,format=webp,fit=pad"
+    },
+    {
+      "id": 13,
+      "fruta": "Pitahaya",
+      "precio": 21.25,
+      "imagen": "https://media.falabella.com/tottusPE/10161810_1/w=1500,h=1500,fit=pad"
+    },
+    {
+      "id": 14,
+      "fruta": "Mandarina",
+      "precio": 3.29,
+      "imagen": "https://media.tottus.com.pe/tottusPE/10265503_1/width=240,height=240,quality=70,format=webp,fit=pad"
+    },
+    {
+      "id": 15,
+      "fruta": "Papaya",
+      "precio": 5.59,
+      "imagen": "https://media.tottus.com.pe/tottusPE/40617105_1/width=240,height=240,quality=70,format=webp,fit=pad"
+    }
+  ],
+  "carrito": []
+}
