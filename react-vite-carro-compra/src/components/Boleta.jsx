@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Boleta = ({ carrito }) => {
   const total = carrito.reduce((acc, item) => acc + (item.precio * item.cantidad), 0)
 

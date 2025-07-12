@@ -1,5 +1,3 @@
-import React from 'react'
-
 const ProductoCard = ({ producto, agregarAlCarrito }) => (
   <div className="card mb-4 shadow" style={{ width: '14rem' }}>
     <div className="card-header bg-primary text-white">

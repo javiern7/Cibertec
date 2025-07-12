@@ -1,5 +1,3 @@
-import React from 'react'
-
 const AlertCarrito = ({ carrito }) => (
   <div style={{ position: 'fixed', top: '1rem', right: '1rem', zIndex: 9999 }}>
     <div className="alert alert-info">
