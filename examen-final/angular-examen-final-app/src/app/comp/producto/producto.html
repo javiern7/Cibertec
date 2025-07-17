@@ -1,0 +1,27 @@
+<div class="container mt-4">
+  <h3>Buscar Zapatillas por Marca o Precio</h3>
+  <input type="text" [(ngModel)]="filtro" class="form-control mb-3" placeholder="Ej: Nike o 380">
+
+  <table class="table table-bordered table-striped table-hover">
+    <thead class="table-dark">
+      <tr>
+        <th>Imagen</th>
+        <th>Nombre</th>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Precio</th>
+        <th>Stock</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let prod of productos | buscar:filtro">
+        <td><img [src]="prod.imagen" width="80"></td>
+        <td>{{ prod.nombre }}</td>
+        <td>{{ prod.marca }}</td>
+        <td>{{ prod.modelo }}</td>
+        <td>S/. {{ prod.precio }}</td>
+        <td>{{ prod.stock }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
