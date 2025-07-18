@@ -1,0 +1,36 @@
+{
+  "peliculas": [
+    {
+      "id": 1,
+      "nombre": "Inception",
+      "estreno": 2010,
+      "genero": "Ciencia Ficción",
+      "duracion": 148,
+      "calificacion": 9
+    },
+    {
+      "id": 2,
+      "nombre": "El Padrino",
+      "estreno": 1972,
+      "genero": "Crimen",
+      "duracion": 175,
+      "calificacion": 10
+    },
+    {
+      "id": 3,
+      "nombre": "Interstellar",
+      "estreno": 2014,
+      "genero": "Drama",
+      "duracion": 169,
+      "calificacion": 8
+    },
+    {
+      "id": 4,
+      "nombre": "Saw",
+      "estreno": 2007,
+      "genero": "Terror",
+      "duracion": 120,
+      "calificacion": 8
+    }
+  ]
+}

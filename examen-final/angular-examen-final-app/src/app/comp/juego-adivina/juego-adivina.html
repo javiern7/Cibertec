@@ -1,0 +1,20 @@
+<div class="container mt-4">
+  <h3>Juego de Adivinar Números [1 - 5]</h3>
+  <form>
+    <div *ngFor="let num of numerosAleatorios; let i = index" class="mb-3">
+      <label>Intento {{ i + 1 }}:</label>
+      <input type="number" class="form-control" [(ngModel)]="intentos[i]" name="intento{{i}}" min="1" max="5">
+      <button type="button" class="btn btn-primary mt-2" (click)="verificarIntento(i)">Verificar</button>
+      <div class="mt-1">
+        <small class="text-info">{{ mensaje[i] }}</small>
+      </div>
+    </div>
+  </form>
+
+  <div class="alert alert-success mt-3">
+    <strong>Puntaje total:</strong> {{ total }}
+  </div>
+
+  <button class="btn btn-warning mt-2" (click)="generarNumeros()">Reiniciar Juego</button>
+</div>
+

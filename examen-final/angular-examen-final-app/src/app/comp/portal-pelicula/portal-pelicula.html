@@ -1,0 +1,46 @@
+<div class="container p-4 bg-light rounded shadow">
+  <h3 class="text-center mb-4">🎬 Portal de Películas</h3>
+
+  <!-- Formulario reactivo -->
+  <form [formGroup]="form" (ngSubmit)="guardar()" class="row g-3 mb-4">
+    <div class="col-md-4">
+      <input formControlName="nombre" type="text" class="form-control" placeholder="Nombre">
+    </div>
+    <div class="col-md-2">
+      <input formControlName="estreno" type="number" class="form-control" placeholder="Año">
+    </div>
+    <div class="col-md-3">
+      <input formControlName="genero" type="text" class="form-control" placeholder="Género">
+    </div>
+    <div class="col-md-2">
+      <input formControlName="duracion" type="number" class="form-control" placeholder="Duración">
+    </div>
+    <div class="col-md-1">
+      <input formControlName="calificacion" type="number" class="form-control" placeholder="⭐">
+    </div>
+    <div class="col-12 text-end">
+      <button type="submit" class="btn btn-success">Registrar</button>
+      <button type="button" class="btn btn-secondary ms-2" (click)="limpiar()">Limpiar</button>
+    </div>
+  </form>
+
+  <!-- Cards de películas -->
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let peli of peliculas">
+      <div class="card border-0 shadow h-100">
+        <div class="card-header bg-dark text-white text-center fw-semibold">
+          {{ peli.nombre }}
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title">{{ peli.estreno }}</h4>
+          <p class="card-text mb-2">🎬 {{ peli.genero }}</p>
+          <p class="card-text">🕒 {{ peli.duracion }} min</p>
+          <p class="card-text"><strong>⭐ {{ peli.calificacion }}</strong></p>
+        </div>
+        <div class="card-footer d-flex justify-content-center gap-2">
+          <button class="btn btn-danger btn-sm" (click)="eliminar(peli.id)">Eliminar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
